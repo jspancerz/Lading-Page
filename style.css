@@ -1,14 +1,21 @@
-/* NOTES TO SELF: left off arranging the 'hero' trying to get the various elements 
-to align correctly into place. 
+/* NOTES TO SELF
+1. create as many divs as you need to align items properly in a flex container.
 
-if i cant figure it out may comment out large sections of the html to soley focus 
-on a narrow section of the entire puzzle. this will help me not get overwhelmed 
-looking at the bigger picture  */
+2. then label each respective div with a class to be able to individually select it with CSS
+
+3. use border: solid; and border-color: #somecolor to visualize each individual div/container.
+
+4. look over discord everyday to see if your question has been answered already by someone else.
+
+THING I LEFT OFF ON: gotta put the elements in the  */
+
+
 
 
 body {
     margin: 0%;
     padding: 0%;
+    background-color: white;
 }
 
 ul {
@@ -17,22 +24,49 @@ ul {
     list-style-type: none;
 }
 
+button {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(0, 0, 48);
+    background-color: #1f2937;
     color: white;
     gap: 20px;
 }
 
 .hero {
-    display: flex;4
+    display: flex;
     justify-content: space-around;
-    background-color: rgb(0, 0, 48);
+    background-color: #1f2937;
     color: white;
-    height: 250px;
+    height: 225px;
     padding: 50px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+}
+
+.hero-box {
+    align-self: center;
+    height: 325px;
+    width: 375px
+}
+
+.maxine {
+    align-self: center;
 }
 
 .middle-container {
@@ -46,14 +80,23 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: x-large ;
     background-color: rgb(221, 215, 215);
 }
 
 .call-to-action {
     display: flex;
     justify-content: center;
-    background-color: lightblue;
+    background-color: white;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    color: white;
+}
+
+.styled-button {
+    border-style: solid;
+    border-color:white;
 }
 
 .footer {
@@ -61,7 +104,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 0, 48);
+    background-color: #1f2937;
     color: white;
-    
+    border-style: solid;
 }
+
