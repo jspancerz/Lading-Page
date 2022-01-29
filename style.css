@@ -7,9 +7,13 @@
 
 4. look over discord everyday to see if your question has been answered already by someone else.
 
-THING I LEFT OFF ON: gotta put the elements in the  */
 
+/* NOTES TO SELF FOR FRIDAY: left off trying to align pictures of cats with subtext directly beneath,
+may need to div up each cat picture and subtext together seperately to align properly?
+perhaps theres another way.. is there a way to round picture of cats using css? rounded-corners doesnt appear to be working in this situation.
+create reasonable gap between cat pics and subtext but remain inline.  */
 
+/* review css basics margin/padding */
 
 
 body {
@@ -33,13 +37,18 @@ button {
     border-style: solid;
 }
 
+.logo-container {
+    display: inline;
+    font-size: 24px;
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     background-color: #1f2937;
     color: white;
-    gap: 20px;
+    align-items: center;
+    height: 40px;
 }
 
 .hero {
@@ -53,10 +62,13 @@ button {
 
 .hero-main-text {
     font-size: 48px;
+    margin: auto;
+    padding-top: 50px;
 }
 
 .hero-secondary-text {
     font-size: 18px;
+    margin: auto;
 }
 
 .hero-box {
@@ -70,13 +82,16 @@ button {
 }
 
 .middle-container {
-    display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
+    height: 300px;
 }
 
-.grey-container {
+.subtext {
+    
+}
+
+/* .grey-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,4 +123,4 @@ button {
     color: white;
     border-style: solid;
 }
-
+ */
