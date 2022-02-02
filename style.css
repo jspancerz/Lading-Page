@@ -81,21 +81,22 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
-    font-size: 36px;
+    font-size: 20px;
     font-style: italic;
-    padding: 9%;
+    padding: 4%;
 }
 
 .thor-quote {
     justify-content: flex-end;
     align-self: flex-end;
+    margin-right: 200px;
 }
 
 .call-to-action {
     display: flex;
     justify-content: center;
     background-color: white;
-    padding: 5%;
+    padding: 3%;
 }
 
 .blue-box {
@@ -126,7 +127,7 @@ button {
     align-items: center;
     background-color: #1f2937;
     color: white;
-    padding: 2%;
+    padding: 1%;
     font-size: small;
 }
 
